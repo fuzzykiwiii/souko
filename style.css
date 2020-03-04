@@ -1,0 +1,82 @@
+header {
+    width:100%;
+    height:45px;
+    background-color:#deb887;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    float:left;
+}
+
+.header-logo{ /*C&C Progate*/
+    color:black;
+    font-size: 30px;
+    font-weight: 10px;
+    font-family: sans-serif;
+    float:left;
+    margin-left:20px;
+}
+.header-logo img{
+    width:30px;
+    height:30px;
+    padding-top:5px;
+}
+.header-list{
+    padding-top:20px;
+}
+.header-list a{
+    margin-left:60px;
+    padding-left:70px;
+    text-decoration: none;
+}
+.top-wrapper {
+    margin-top:5px;
+    background-image: url(img/編cafe201261761_TP_V.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:60%;
+}
+.container {
+    margin:0 auto;
+    padding:200px;
+    text-align: center;
+    color:black;
+}
+.container h3{
+    background-color:rgba(255, 250, 250, 0.5);
+    margin-top:5px;
+    margin-bottom:0;
+    font-size:30px;
+}
+.container h1{
+    background-color:rgba(255, 250, 250, 0.5);
+    margin-top:0px;
+    font-size:50px;
+}
+.container p{
+    background-color:rgba(255, 250, 250, 0.5);
+    font-weight:bold;
+}
+.contents{
+    text-align:center;
+    height:1500px;
+}
+.contents img{
+    width: 50%;
+}
+.contents-1 h3{
+    font-size:30px;
+    font-weight:bold;
+}
+.contents-1 p{
+    font-size:20px;
+}
+.contents-2{
+    display:flex;
+    margin:10px auto;
+    width:50%;
+}
+.icon{
+    flex:auto;
+}
+
